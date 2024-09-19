@@ -20,6 +20,10 @@ export default {
       FontTexts: ['Aboreto', 'system-ui'],
       FonteTitles: ['Julius Sans One', 'sans-serif'],
     },
+    screens: {
+      'Mobile': {'max': '639px'},
+      'Tablet' : {'max' : '1250px'},
+    },
     extend: {},
   },
   plugins: [],
