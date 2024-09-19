@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <header>
-            <img src="" alt="" />
+            <img src="Logo.jpg" alt="Imagem Logo pimentinha Produções" />
             <ul>
                 <li><a href="#">SOBRE MIM</a></li>
                 <li><a href="#">ABC</a></li>
