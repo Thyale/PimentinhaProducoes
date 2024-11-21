@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        aclonica: ['Aclonica', 'sans-serif'],
+        aboreto: ['Aboreto', 'system-ui'],
+      },
+      screens: {
+        'Mobile': {'max': '939px'},
+      },
+    },
   },
   plugins: [],
 }
-

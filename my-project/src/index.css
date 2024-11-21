@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .StyleLinksBarra{
+        background-color: rgba(115, 0, 0, 1);
+        width: 90%;
+        max-width: 400px;
+        border-radius: 30px;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+
+    .StyleLinksBarra:hover{
+        background-color: rgb(143, 0, 0);
+    }
+}
