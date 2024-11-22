@@ -7,7 +7,7 @@ export default function QuinzeAnos() {
     <section className="bg-Cinza p-6">
       <div className="border-l-2 border-black p-2 mb-3 font-aboreto">
         <h1 className="text-2xl">15 ANOS</h1>
-        <div className="text-sm flex flex-row gap-3 cursor-pointer">
+        <div className="text-sm flex flex-row gap-3 text-pink-500 cursor-pointer">
           <p onClick={() => setVideo("video1")}>Vídeo 1</p>
           <p onClick={() => setVideo("video2")}>Vídeo 2</p>
         </div>

@@ -24,6 +24,7 @@ export default {
         'hoverSalmao' : 'rgba(215, 106, 97, 1)',
         'Vinho': 'rgba(91, 0, 0, 1)',
         'Cinza' : 'rgba(217, 217, 217, 1)',
+        'CinzaEscuro' : 'rgba(120, 120, 120, 1)'
       },
     },
   },

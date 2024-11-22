@@ -6,6 +6,7 @@ import Sobre from './Main/Sobre'
 import Abc from './Main/Abc'
 import FestaInfantil from './Main/FestaInfantil'
 import QuinzeAnos from './Main/QuinzeAnos'
+import Sociais from './Main/Sociais'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Abc/>
     <FestaInfantil/>
     <QuinzeAnos/>
+    
+    <Sociais/>
   </StrictMode>,
 )
