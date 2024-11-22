@@ -11,25 +11,25 @@ export default function Abc(){
                     <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos na praia" />
                     <div>
                        <h1 className="font-aboreto text-2xl mt-3">FOTOS NA PRAIA</h1>
-                       <a className="text-white bg-Amarelo px-2" href="">Acesse o portfólio</a>
+                       <a className="text-white bg-Amarelo px-2 font-aboreto text-sm" href="">Acesse o portfólio</a>
                     </div>
-                    <button className="bg-Amarelo hover:bg-hoverAmarelo w-full mt-3 py-1 text-Branco rounded-md"><a target="_blanck" href="https://www.instagram.com/reel/C_L-qltpKZy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Assistir Vídeo</a></button>
+                    <button className="bg-Amarelo font-aboreto hover:bg-hoverAmarelo w-full mt-3 py-1 text-Branco rounded-md"><a target="_blanck" href="https://www.instagram.com/reel/C_L-qltpKZy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Assistir Vídeo</a></button>
                 </div>
                 <div className="w-full max-w-96">
                     <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos com beca" />
                     <div>
                        <h1 className="font-aboreto text-2xl mt-3">FOTOS DE BECA</h1>
-                       <a className="text-white px-2 bg-Verde" href="">Acesse o portfólio</a>
+                       <a className="text-white px-2 bg-Verde font-aboreto text-sm" href="">Acesse o portfólio</a>
                     </div>
-                    <button className="bg-Verde hover:bg-hoverVerde w-full mt-3 py-1 text-white rounded-md"><a target="_blanck" href="https://www.instagram.com/reel/DAPVGoCOI7x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Assistir Vídeo</a></button>
+                    <button className="bg-Verde font-aboreto hover:bg-hoverVerde w-full mt-3 py-1 text-white rounded-md"><a target="_blanck" href="https://www.instagram.com/reel/DAPVGoCOI7x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Assistir Vídeo</a></button>
                 </div>
                 <div className="w-full max-w-96">
                     <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos da festa de formatura" />
                     <div>
                        <h1 className="font-aboreto text-2xl mt-3">FESTA DE FORMATURA</h1>
-                       <a className="text-white px-2 bg-Salmao" href="">Acesse o portfólio</a>
+                       <a className="text-white px-2 bg-Salmao font-aboreto text-sm" href="">Acesse o portfólio</a>
                     </div>
-                    <button className="bg-Salmao hover:bg-hoverSalmao w-full mt-3 py-1 text-white rounded-md"><a target="_blanck" href="https://www.facebook.com/100001988834996/videos/430622826325666/">Assistir Vídeo</a></button>
+                    <button className="bg-Salmao font-aboreto hover:bg-hoverSalmao w-full mt-3 py-1 text-white rounded-md"><a target="_blanck" href="https://www.facebook.com/100001988834996/videos/430622826325666/">Assistir Vídeo</a></button>
                 </div>
             </div>
         </section>
