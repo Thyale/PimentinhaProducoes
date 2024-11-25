@@ -1,12 +1,13 @@
 export default function Abc(){
     return(
         <section className="bg-Cinza p-6">
-            <div className="w-11/12 max-w-4xl">
+            <div className="w-11/12 m-auto Mobile:w-full">
+                <div className="w-11/12 max-w-4xl">
                 <h1 className="border-l-2 border-black p-2 mb-3 text-xl font-aboreto">FORMATURA DE ABC</h1>
                 <p className="font-aboreto mb-3 text-sm">Oferecemos sessões descontraídas na praia com a família, fotos de beca em cenários sofisticados como uma mesa elegante e uma biblioteca inspiradora, e a cobertura completa do evento de ABC. </p>
                 <p className="font-aclonica">Deixe-nos eternizar cada momento especial com a precisão e emoção que eles merecem!</p>
-            </div>
-            <div className="flex flex-row items-center flex-wrap w-full justify-around mt-6 gap-3">
+                </div>
+                <div className="flex flex-row items-center flex-wrap w-full justify-around mt-6 gap-3">
                 <div className="w-full max-w-96">
                     <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos na praia" />
                     <div>
@@ -30,6 +31,7 @@ export default function Abc(){
                        <a className="text-white px-2 bg-Salmao font-aboreto text-sm" href="">Acesse o portfólio</a>
                     </div>
                     <button className="bg-Salmao font-aboreto hover:bg-hoverSalmao w-full mt-3 py-1 text-white rounded-md"><a target="_blanck" href="https://www.facebook.com/100001988834996/videos/430622826325666/">Assistir Vídeo</a></button>
+                </div>
                 </div>
             </div>
         </section>
