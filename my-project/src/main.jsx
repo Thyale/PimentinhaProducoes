@@ -8,6 +8,7 @@ import FestaInfantil from './Main/FestaInfantil'
 import QuinzeAnos from './Main/QuinzeAnos'
 import Sociais from './Main/Sociais'
 import Gestantes from './Main/Gestantes'
+import Empresariais from './Main/Empresariais'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     <FestaInfantil/>
     <QuinzeAnos/>
     <Gestantes/>
+    <Empresariais/>
     <Sociais/>
   </StrictMode>,
 )
