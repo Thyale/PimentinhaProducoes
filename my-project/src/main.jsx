@@ -9,6 +9,8 @@ import QuinzeAnos from './Main/QuinzeAnos'
 import Sociais from './Main/Sociais'
 import Gestantes from './Main/Gestantes'
 import Empresariais from './Main/Empresariais'
+import Whats from './Main/Whats'
+import Footer from './Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,5 +22,7 @@ createRoot(document.getElementById('root')).render(
       <Gestantes/>
       <Sociais/>
       <Empresariais/>
+    <Whats/>
+    <Footer/>
   </StrictMode>,
 )
