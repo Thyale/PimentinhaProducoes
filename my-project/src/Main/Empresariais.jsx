@@ -1,6 +1,6 @@
 export default function Empresariais(){
     return(
-        <section className="p-6 bg-Vinho text-white">
+        <section id="empresas" className="p-6 bg-Vinho text-white">
             <div className="w-11/12 m-auto Mobile:w-full">
                 <div className="w-11/12 max-w-4xl">
                 <h1 className="border-l-2 border-white p-2 mb-3 text-xl font-aboreto">EMPRESARIAIS</h1>

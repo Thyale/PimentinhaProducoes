@@ -1,6 +1,6 @@
 export default function Abc(){
     return(
-        <section className="bg-Cinza p-6">
+        <section id="abc" className="bg-Cinza p-6">
             <div className="w-11/12 m-auto Mobile:w-full">
                 <div className="w-11/12 max-w-4xl">
                 <h1 className="border-l-2 border-black p-2 mb-3 text-xl font-aboreto">FORMATURA DE ABC</h1>

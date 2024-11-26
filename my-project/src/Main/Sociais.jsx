@@ -1,6 +1,6 @@
 export default function Sociais(){
     return(
-        <section className="bg-Cinza p-6">
+        <section id="sociais" className="bg-Cinza p-6">
             <div className="w-11/12 m-auto Mobile:w-full">
                 <div className="w-11/12 max-w-4xl">
                 <h1 className="border-l-2 border-black p-2 mb-1 text-xl font-aboreto">EVENTOS SOCIAIS</h1>

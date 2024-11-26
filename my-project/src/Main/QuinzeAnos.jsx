@@ -4,7 +4,7 @@ export default function QuinzeAnos() {
   const [video, setVideo] = useState("video1");
 
   return (
-    <section className="bg-Cinza p-6">
+    <section id="quinzeanos" className="bg-Cinza p-6">
       <div className="w-11/12 m-auto Mobile:w-full">
         <div className="border-l-2 border-black p-2 mb-3 font-aboreto">
         <h1 className="text-2xl">15 ANOS</h1>

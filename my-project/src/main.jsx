@@ -13,12 +13,12 @@ import Empresariais from './Main/Empresariais'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
-    <Sobre/>
-    <Abc/>
-    <FestaInfantil/>
-    <QuinzeAnos/>
-    <Gestantes/>
-    <Empresariais/>
-    <Sociais/>
+      <Sobre/>
+      <Abc/>
+      <FestaInfantil/>
+      <QuinzeAnos/>
+      <Gestantes/>
+      <Sociais/>
+      <Empresariais/>
   </StrictMode>,
 )

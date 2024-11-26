@@ -19,13 +19,13 @@ export default function Header() {
                     </div>
                 </div>
                 <ul className={`w-full flex flex-row justify-around Mobile:flex-col Mobile:items-center Mobile:pt-2 Mobile:pb-2 Mobile:gap-2 ${menuOpen ? 'Mobile:flex' : 'Mobile:hidden'}`}>
-                    <li className="Mobile:StyleLinksBarra"><a href="">ABC</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">FESTA INFANTIL</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">15 ANOS</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">GESTANTE</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">CASAMENTOS</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">BODAS</a></li>
-                    <li className="Mobile:StyleLinksBarra"><a href="">EMPRESARIAIS</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#abc">ABC</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#festaInfantil">FESTA INFANTIL</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#quinzeanos">15 ANOS</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#gestante">GESTANTE</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#sociais">CASAMENTOS</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#sociais">BODAS</a></li>
+                    <li className="Mobile:StyleLinksBarra"><a href="#empresas">EMPRESARIAIS</a></li>
                 </ul>
             </div>
         </header>
