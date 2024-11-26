@@ -1,11 +1,26 @@
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
+
 export default function Sobre(){
+
+    useEffect(() => {
+        const sr = ScrollReveal({
+          origin: 'left',  
+          distance: '30px',    
+          duration: 1000,    
+          delay: 100, 
+          reset: true 
+        });
+        sr.reveal('#TextAbout');
+    }, []);
+
     return(
         <section id="Sobre" className="bg-Vinho text-Branco">
           <div className=" w-11/12 m-auto flex flex-row justify-center items-center gap-5 pt-10 pb-10 Mobile:flex-col">
             <div className="w-auto max-w-3xl">
                 <img className="max-w-96 w-auto Mobile:p-3 shadow-lg" src="ImgPessoal.jpg" alt="Foto Alexandre pimentinha" />
             </div>
-            <div className="w-auto max-w-3xl flex flex-col gap-5">
+            <div id='TextAbout' className="w-auto max-w-3xl flex flex-col gap-5">
                 <div className="border-l-2 pl-3">
                     <h1 className="font-aboreto text-3xl">Sobre mim</h1>
                     <p className="font-aboreto text-xs text-Cinza">Saiba mais sobre alexandre pimentinha</p>

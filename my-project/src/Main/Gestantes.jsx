@@ -1,7 +1,22 @@
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
+
 export default function Gestantes(){
+
+    useEffect(() => {
+        const sr = ScrollReveal({
+          origin: 'left',  
+          distance: '50px',    
+          duration: 1000,    
+          delay: 200, 
+          reset: true 
+        });
+        sr.reveal('#TextGestante');
+    }, []);
+
     return(
         <section id="gestante" className="bg-[url('/bg-Gestantes.png')] bg-cover bg-bottom p-6 flex flex-row justify-around flex-wrap Mobile:bg-left">
-            <div className="w-96">
+            <div id='TextGestante' className="w-96">
                 <h1 className="border-l-2 border-black p-2 mb-3 text-xl font-aboreto">Gestantes</h1>
                 <h2 className="font-aclonica text-xl">Eternize esse momento mágico</h2>
                 <p className="mt-3 font-aboreto text-sm mb-2">Sessão de Fotos Gestante: Eternize Esse Momento Mágico
