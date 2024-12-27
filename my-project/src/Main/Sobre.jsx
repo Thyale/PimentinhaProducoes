@@ -1,5 +1,6 @@
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 export default function Sobre(){
 
@@ -17,9 +18,16 @@ export default function Sobre(){
     return(
         <section id="Sobre" className="bg-Vinho text-Branco">
           <div className=" w-11/12 m-auto flex flex-row justify-center items-center gap-5 pt-10 pb-10 Mobile:flex-col">
-            <div className="w-auto max-w-3xl">
+            <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+                duration: 0.4,
+                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+            }}
+            className="w-auto max-w-3xl">
                 <img className="max-w-96 w-auto Mobile:p-3 shadow-lg" src="ImgPessoal.jpg" alt="Foto Alexandre pimentinha" />
-            </div>
+            </motion.div>
             <div id='TextAbout' className="w-auto max-w-3xl flex flex-col gap-5">
                 <div className="border-l-2 pl-3">
                     <h1 className="font-aboreto text-3xl">Sobre mim</h1>
