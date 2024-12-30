@@ -5,7 +5,6 @@ export default function Empresariais(){
                 <div className="w-11/12 max-w-4xl">
                 <h1 className="border-l-2 border-white p-2 mb-3 text-xl font-aboreto">EMPRESARIAIS</h1>
                 <p className="font-aboreto text-sm mt-2">Mostre o poder e a autenticidade do seu negócio com fotos e vídeos profissionais! Nossas sessões são perfeitas para empresárias que desejam destacar sua marca, fortalecer sua presença online e transmitir confiança. Deixe sua imagem refletir o sucesso que você construiu!</p>
-                <a className="font-aboreto text-sm text-Cinza " href="">acesse o portfólio</a>
                 </div>
                 <div className="mt-6 w-full">
                <iframe

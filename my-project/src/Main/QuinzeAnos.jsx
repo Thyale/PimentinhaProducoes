@@ -13,9 +13,6 @@ export default function QuinzeAnos() {
           <p onClick={() => setVideo("video2")}>Vídeo 2</p>
         </div>
         </div>
-        <a className="font-aboreto text-sm text-white bg-pink-300 px-2" href="#">
-        acesse o portfólio
-        </a>
         <div className="flex flex-col items-center space-y-4">
         <div className="w-full mt-6">
           {video === "video1" && (
