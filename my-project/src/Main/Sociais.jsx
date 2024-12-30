@@ -23,12 +23,12 @@ export default function Sociais(){
                 </div>
                 <div className="flex flex-row flex-wrap w-full mt-6 gap-5 justify-center">
                 <div id='ImagensSociais' className="w-full max-w-lg flex flex-col items-center gap-2">
-                    <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos na praia" />
+                    <img className="shadow-lg rounded-md" src="/ImgCasamento.png" alt="Imagem de casamento" />
                     <h1 className="text-xl font-aboreto font-semibold">CASAMENTO</h1>
                     <p className="font-aboreto text-sm text-center">Capture a emoção e a beleza do seu grande dia com nossas fotos de casamento. Cada momento, desde o "sim" até a celebração, será registrado com carinho e cuidado, criando memórias eternas desse dia único.</p>
                 </div>
                 <div id='ImagensSociais' className="w-full max-w-lg flex flex-col items-center gap-2">
-                    <img className="shadow-lg" src="/ImgIlustrativa.png" alt="Imagem de sessão de fotos na praia" />
+                    <img className="shadow-lg rounded-md" src="/ImgIlustrativa.png" alt="Imagem de bodas" />
                     <h1 className="text-xl font-aboreto font-semibold">BODAS</h1>
                     <p className="font-aboreto text-sm text-center">Celebre seu amor e conquistas com uma sessão de fotos especial de bodas. Eternize cada sorriso e gesto de carinho, transformando anos de história em lembranças inesquecíveis.</p>
                 </div>

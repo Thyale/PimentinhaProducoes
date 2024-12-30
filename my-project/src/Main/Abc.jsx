@@ -26,7 +26,7 @@ export default function Abc(){
                     <div id="FotosAbc" className="w-full max-w-96">
                         <img className="shadow-lg" src="/PraiaAbcImg.png" alt="Imagem de sessão de fotos na praia" />
                         <h1 className="font-aboreto text-2xl mt-3">FOTOS NA PRAIA</h1>
-                        <a target="_blank" className="block w-full bg-Amarelo font-aboreto hover:bg-hoverAmarelo mt-3 text-Branco rounded-md text-center py-1" href="https://www.instagram.com/reel/C_L-qltpKZy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Assistir Vídeo</a>
+                        <a target="_blank" className="block w-full bg-Amarelo font-aboreto hover:bg-hoverAmarelo mt-3 text-Branco rounded-md text-center py-1" href="https://youtu.be/1guQOSwTC9Q?si=OeDCd2N26a6114du">Assistir Vídeo</a>
                     </div>
                     <div id="FotosAbc" className="w-full max-w-96">
                         <img className="shadow-lg" src="/BecaAbcImg.png" alt="Imagem de sessão de fotos com beca" />
