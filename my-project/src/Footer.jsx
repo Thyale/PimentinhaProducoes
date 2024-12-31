@@ -26,7 +26,7 @@ export default function Footer(){
                 <h1 className="font-aclonica font-xl">Contato</h1>
                 <ul>
                     <li><a className="font-aboreto text-md hover:text-Vinho" target="_Blank" href="mailto:aldantas13@gmail.com">Email</a></li>
-                    <li><a className="font-aboreto text-md hover:text-Vinho" target="_Blank" href="https://wa.me/5581999641204?text=Olá%20gostaria%20de%20mais%20informações">WhatsApp</a></li>
+                    <li><a className="font-aboreto text-md hover:text-Vinho" target="_Blank" href="https://wa.me/5581999641204?text=Olá,%20gostaria%20de%20mais%20informações!">WhatsApp</a></li>
                 </ul>
             </div>
         </footer>
