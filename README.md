@@ -19,7 +19,7 @@ O site tem como foco principal permitir que os clientes encontrem facilmente tod
 - Animações de entrada e transições suaves para uma experiência agradável.
 - Layout responsivo para uma navegação fluida em dispositivos móveis e desktops.
 
-**Link disponível do deploy** 
+**Link disponível do deploy** :https://thyale.github.io/PimentinhaProducoes/
 
 ## Como Rodar o Projeto
 
