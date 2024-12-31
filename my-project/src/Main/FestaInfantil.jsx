@@ -8,7 +8,7 @@ export default function FestaInfantil(){
     return(
         <section id="festaInfantil" className="bg-[url('/bg-FestaInfantil.png')] bg-cover bg-center p-6">
             <h1 className="w-11/12 Mobile:w-full m-auto border-l-2 border-black p-2 mb-3 text-xl font-aboreto">Festas infantis</h1>
-            <div className="w-11/12 m-auto max-w-6xl bg-gray-300 Mobile:w-full">
+            <div className="w-11/12 m-auto max-w-4xl bg-gray-300 Mobile:w-full">
                 <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
