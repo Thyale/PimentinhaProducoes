@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer className="flex flex-row justify-around p-3 Mobile:flex-col Mobile:items-start gap-2 Mobile:gap-4">
-            <img className="w-72 h-32 self-center items-center Mobile:mb-5" src="/Logo.jpg" alt="Logo do fotógrafo" />
+            <img className="w-72 h-32 self-center items-center Mobile:mb-5" src="Logo.jpg" alt="Logo do fotógrafo" />
             <div>
                 <h1 className="font-aclonica font-xl">Redes Sociais</h1>
                 <ul>
