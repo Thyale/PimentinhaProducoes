@@ -20,13 +20,13 @@ export default function FestaInfantil(){
                 modules={[Pagination,Navigation]}
                 className='mySwiper'
                 >
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis1.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis2.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis3.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis4.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis5.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis6.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
-                    <SwiperSlide><img className="shadow-lg w-full" src="/ImgFestasInfantis7.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis1.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis2.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis3.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis4.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis5.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis6.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
+                    <SwiperSlide><img className="shadow-lg w-full" src="ImgFestasInfantis7.jpg" alt="Imagens de fotos de festas Infantis"/></SwiperSlide>
                 </Swiper>
             </div>
         </section>
