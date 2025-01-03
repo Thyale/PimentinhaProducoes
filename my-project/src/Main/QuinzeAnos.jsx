@@ -18,6 +18,7 @@ export default function QuinzeAnos() {
           {video === "video1" && (
             <iframe
               height="515"
+              loading="lazy"
               src="https://www.youtube.com/embed/wY0I0UIW4-I?si=3Ac6UchyMslzmXYG"
               title="YouTube video player"
               frameBorder="0"
@@ -30,6 +31,7 @@ export default function QuinzeAnos() {
           {video === "video2" && (
             <iframe
               height="515"
+              loading="lazy"
               src="https://www.youtube.com/embed/YU-T6iRA41I?si=MffMm3mTpxd2zGTn"
               title="YouTube video player"
               frameBorder="0"

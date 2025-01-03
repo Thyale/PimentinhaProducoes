@@ -9,6 +9,7 @@ export default function Empresariais(){
                 <div className="mt-6 w-full">
                <iframe
                  height="615"
+                 loading="lazy"
                  src="https://www.youtube.com/embed/QwMCU9fkEc4?si=VhO4cilI0VoJ2xev"
                  title="YouTube video player"
                  frameBorder="0"

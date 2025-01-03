@@ -26,7 +26,7 @@ export default function Sobre(){
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
             }}
             className="w-auto max-w-3xl">
-                <img className="max-w-96 w-auto Mobile:p-3 shadow-lg" src="ImgPessoal.jpg" alt="Foto Alexandre pimentinha" />
+                <img loading="lazy" className="max-w-96 w-auto Mobile:p-3 shadow-lg" src="ImgPessoal.jpg" alt="Foto Alexandre pimentinha" />
             </motion.div>
             <div id='TextAbout' className="w-auto max-w-3xl flex flex-col gap-5">
                 <div className="border-l-2 pl-3">

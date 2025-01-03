@@ -23,7 +23,7 @@ export default function Gestantes(){
                 A gravidez é um dos momentos mais especiais e transformadores da vida, e merece ser eternizado com toda a beleza que ela traz. Nossas sessões de fotos para gestantes capturam a essência desse período único, destacando a conexão entre mãe e bebê em cenários cuidadosamente planejados, seja ao ar livre ou em estúdio. Cada imagem reflete a emoção, o amor e a expectativa desse momento inesquecível. Reserve sua sessão e tenha lembranças eternas dessa fase tão especial!</p>
             </div>
             <div className="Mobile:mt-6">
-                <img className='w-full max-w-3xl' src="FotoGestante.jpeg" alt="Imagem Ilustrativa de uma gestante" />
+                <img loading="lazy" className='w-full max-w-3xl' src="FotoGestante.jpeg" alt="Imagem Ilustrativa de uma gestante" />
             </div>
         </section>
     )
